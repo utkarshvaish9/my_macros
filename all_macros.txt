@@ -17,3 +17,5 @@
 #define ppb 				pop_back
 #define sz(x)				(int)(x).size()
 #define gc					getchar_unlocked
+#define present(container, element) (container.find(element) != container.end()) 
+ #define cpresent(container, element) (find(all(container),element) != container.end()) //for vector
