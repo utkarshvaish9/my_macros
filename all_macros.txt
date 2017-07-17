@@ -19,3 +19,8 @@
 #define gc					getchar_unlocked
 #define present(container, element) (container.find(element) != container.end()) 
  #define cpresent(container, element) (find(all(container),element) != container.end()) //for vector
+ 
+#define stringToCharArray(s,tab) { \
+								strncpy(tab,s.c_str(),sizeof(tab)); \
+								tab[sizeof(tab) - 1] = 0; \
+							}
